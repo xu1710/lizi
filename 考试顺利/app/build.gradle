@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.1.0"
+
+    defaultConfig {
+        applicationId "com.xujingrong.luckytest"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true//最小化资源包
+        	shrinkResources true//去掉无用资源
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+	compile project(':CircleImageView:circleimageview')
+	compile project(':AndroidGIFLoader:app')
+	compile 'com.android.support:support-v4:25.3.0'
+	compile 'com.android.support:design:25.3.0'
+	compile 'com.android.support:appcompat-v7:25.3.0'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}

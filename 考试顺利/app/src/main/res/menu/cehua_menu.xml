@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+		android:title="你可以选择下面的其中一项just one shot"
+		android:checkableBehavior="single"
+	>
+		<item
+			android:id="@+id/k"
+			android:title="请选择下面的一项just one shot"
+		>
+			<menu>
+				<item
+					android:id="@+id/e"
+					android:title="Experience"/>
+				<item
+					android:id="@+id/r"
+					android:title="Relax"/>
+				<item
+					android:id="@+id/g"
+					android:title="Guess"/>
+			</menu>
+		</item>
+    </group>
+
+	<item
+		android:id="@+id/j"
+		android:title="this app can use once">
+		<menu>
+			<item>
+			</item>
+		</menu>
+	</item>
+</menu>

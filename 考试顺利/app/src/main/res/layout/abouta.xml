@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:orientation="vertical">
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/toolbar_a"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="?attr/colorPrimary"/>
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:padding="10dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="空闲时间，写了个软件，包含一些自己的感悟，激励高考考生，希望你们能从这里找到自己，走出迷失，树立正确明确的目标，为之奋斗，考出理想成绩。"
+			android:id="@+id/aboutaTextView1"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="测试机型：红米note4X_MTK"
+			android:layout_below="@id/aboutaTextView1"
+			android:id="@+id/aboutaTextView2"
+			android:layout_marginTop="44dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="参考学习资料：《第一行代码（第二版）》郭霖著；网络各个网站。"
+			android:layout_below="@id/aboutaTextView2"
+			android:id="@+id/aboutaTextView3"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="设计者：许景荣"
+			android:layout_below="@id/aboutaTextView3"
+			android:id="@+id/aboutaTextView4"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="联系方式qq:2275426161"
+			android:layout_below="@id/aboutaTextView4"
+			android:id="@+id/aboutaTextView5"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="诸多缺点，希望指出。初次学习，还望见谅。"
+			android:layout_below="@id/aboutaTextView5"
+			android:id="@+id/aboutaTextView6"/>
+
+		<com.xujingrong.luckytest.MyGIFView
+			android:id="@+id/iv"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_below="@id/aboutaTextView6"
+			android:layout_centerHorizontal="true"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+
