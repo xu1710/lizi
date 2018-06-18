@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/item1"
+        android:title="@string/xindea"/>
+	<item
+        android:id="@+id/item2"
+        android:title="@string/abouta"/>
+	
+	<item
+		android:id="@+id/j"
+		android:title="@string/ch_m_xx">
+		<menu>
+			<item>
+			</item>
+		</menu>
+	</item>
+    
+</menu>
