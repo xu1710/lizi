@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/save"
+        android:title="save"
+		android:showAsAction="never|withText"/>
+    <item
+        android:id="@+id/save_as"
+        android:title="save as"
+		android:showAsAction="never|withText"/>
+    <item
+        android:id="@+id/undo"
+        android:title="undo"
+		android:showAsAction="never|withText"/>
+    <item
+        android:id="@+id/redo"
+        android:title="redo"
+		android:showAsAction="never|withText"/>
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"
+		android:showAsAction="never|withText"/>
+    
+</menu>
